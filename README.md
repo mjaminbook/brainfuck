@@ -9,6 +9,10 @@ There is sample bf code within the directory bf_code. Note that by convention al
 to this code.
 ##Executing BF Code
 As stated earlier, before executing any code, the interpreter must be compiled with gcc. To execute a bf code file, run the interpreter, passing
-in the file path as a parameter. Include any other parameters afterward.
+in the file path as a parameter. Include any input that the bf code requires after the file path. Note: if the input includes spaces, make sure that you encase the input in quotations. \n
+Here is an example of bf code execution: \n
+**./brainfuck_interpreter bf_code/hiAll.bf "Everyone I know and love"**
+\n
 
-//Still editing
+If there is no input, simply omit the last command-line argument.
+
